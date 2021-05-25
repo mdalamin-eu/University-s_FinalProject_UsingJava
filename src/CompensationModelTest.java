@@ -9,15 +9,15 @@ public class CompensationModelTest{
 
 
         employees[0] = new CommissionCompensationModel(
-                "Sue", "Jones", "333-33-3333", 10000.0f, .06f);
+                "Ikther", "Nayeem", "333-33-3333", 10000.0f, .06f);
         employees[1] = new BasePlusCommissionCompensationModel(
-                "Bob", "Lewis", "444-44-4444", 5000.0f, .04f, 300.0f);
+                "Shakib", "Hasan", "444-44-4444", 5000.0f, .04f, 300.0f);
         employees[2] = new SalariedCompensationModel(
                 "Bishal", "Thapa", "111-11-1111", 800.0f);
         employees[3] = new HourlyCompensationModel(
                 "Jakko", "khan", "222-22-2222", 16.75f, 40.0f);
         employees[4] = new HourlyCompensationModel(
-                "Alamin", "Md", "333-33-3333", 16.75f, 50.0f);
+                "Alamin", "Md", "555-55-5555", 16.75f, 50.0f);
 
         System.out.println("Employees processed polymorphically:\n");
 
